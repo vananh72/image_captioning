@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Captioning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <div class="home_resume">
+                <div class="works">
+                    <b>Works</b>
+                </div>
+                <div class="blog">
+                    <b>Blogs</b>
+                </div>
+                <div class="contact">
+                    <b>Contact</b>
+                </div>
+                <div class="hi_creative">
+                    <div class="hi">
+                        <b>Team 1</b>
+                    </div>
+                    <div class="creative">
+                        <b>Image Captioning</b>
+                    </div>
+                </div>
+                <div class="ellipse"><img src="AI2.jpg" alt=""></div>
+                <div class="amet">
+                    <p>Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions. The dataset will be in the form [ image → captions ]. The dataset consists of input images and their corresponding output captions.</p>
+                </div>
+            </div>
+            <div class="home_recent_posts">
+                <div class="text_recent_posts">Demo</div>
+                <div class="view">View all</div>
+                <div class="demo">
+                    <form method="POST">
+                        <label for="Image">Image:</label><br>
+                        <br>
+                        <input type="file" id="image" name="image"placeholder="Image" value="{{request.form.image }}" ><br>
+                        <br>
+                        <label for="Description">Description:</label><br>
+                        <input type="text" id="description" name="description" value="{{request.form.description }}"><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <div class="home_featured_works">
+                <div class="text_featured_works"><p>Introduction</p></div>
+                <div class="rectangle">
+                    <div class="img_rectangle"><img src="example1.png" alt=""></div>
+                    <div class="text_rectangle">
+                        <div class="text_rectangle_Designing"><b>Deep learning</b></div>
+                        <div class="text_rectangle_time_dashboard">
+                            <div class="text_rectangle_time"><p> 2021</p></div>
+                            <div class="text_rectangle_dashboard"><p>Introduction</p></div>
+                        </div>
+                        <div class="text_rectangle_text">
+                            <p>Deep Learning is a very rampant field right now – with so many applications coming out day by day. And the best way to get deeper into Deep Learning is to get hands-on with it. Take up as much projects as you can, and try to do them on your own. This would help you grasp the topics in more depth and assist you in becoming a better Deep Learning practitioner.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangle">
+                    <div class="img_rectangle"><img src="example2.jpg" alt=""></div>
+                    <div class="text_rectangle">
+                        <div class="text_rectangle_Designing"><b>What does an Image Captioning Problem entail?</b></div>
+                        <div class="text_rectangle_time_dashboard">
+                            <div class="text_rectangle_time"><p>2021</p></div>
+                            <div class="text_rectangle_dashboard"><p>Introduction</p></div>
+                        </div>
+                        <div class="text_rectangle_text">
+                            <p>A quick glance is sufficient for you to understand and describe what is happening in the picture. Automatically generating this textual description from an artificial system is the task of image captioning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rectangle">
+                    <div class="img_rectangle"><img src="example3.png" alt=""></div>
+                    <div class="text_rectangle">
+                        <div class="text_rectangle_Designing"><b>Methodology to Solve the Task</b></div>
+                        <div class="text_rectangle_time_dashboard">
+                            <div class="text_rectangle_time"><p>2021</p></div>
+                            <div class="text_rectangle_dashboard"><p>Introduction</p></div>
+                        </div>
+                        <div class="text_rectangle_text">
+                            <p>The task of image captioning can be divided into two modules logically – one is an image based model – which extracts the features and nuances out of our image, and the other is a language based model – which translates the features and objects given by our image based model to a natural sentence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home_social_network">
+                <div class="fb"><img src="fb.png" alt=""></div>
+                <div class="insta">
+                    <div class="insta_vector1">
+                        <div class="insta_vector2"></div>
+                        <div class="insta_vector3"></div>
+                    </div>
+                </div>
+                <div class="twitter"><img src="Vector (1).png" alt=""></div>
+                <div class="linkedin"><img src="Linkedin.png" alt=""></div>
+                <div class="home_social_network_text">Copyright ©2020 All rights reserved </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,240 @@
+.container {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+}
+.home {
+    width: 1152px;
+    height: 2041px;
+    background-color:#FFFFFF;
+    margin-left: 180px;
+}
+.home_resume {
+    width: 1152px;
+    height: 595px;
+}
+.works {
+    width: 57px;
+    height: 43px;
+    font-size: 20px;
+    margin-top: 27px;
+    margin-left: 856px;
+    display: inline-block;
+}
+.blog {
+    width: 57px;
+    height: 43px;
+    font-size: 20px;
+    padding: 30px;
+    /* margin-top: 27px; */
+    /* margin-left: 882px; */
+    display: inline-block;
+}
+.contact {
+    width: 71px;
+    height: 43px;
+    font-size: 20px;
+    /* margin-top: 27px;
+    margin-right: 60px; */
+    display: inline-block;
+}
+.hi_creative {
+    width: 506px;
+    height: 105px;
+    margin-top: 153px;
+    margin-left: 148px;
+    display: inline-block;
+}
+.hi {
+    width: 506px;
+    height: 52px;
+    font-size: 44px;
+    /* margin-top: 153px;
+    margin-left: 148px; */
+}
+.creative {
+    width: 506px;
+    height: 52px;
+    font-size: 44px;
+    /* margin-left: 148px; */
+}
+.ellipse {
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 90px;
+    position: absolute;
+    display: inline-block;
+}
+.ellipse img {
+    width: 250px;
+    height: 250px;
+}
+.amet {
+    width: 497px;
+    height: 66px;
+    margin-left: 148px;
+    font-size: 16px;
+}
+.home_recent_posts {
+    width: 1152px;
+    height: 396px;
+    background-color: #EDF7FA;
+}
+.text_recent_posts {
+    width: 129px;
+    height: 60px;
+    font-size: 22px;
+    margin-left: 148px;
+    padding-top: 7px;
+    display: inline-block;
+}
+.view {
+    width: 208px;
+    height: 60px;
+    margin-left: 519px;
+    margin-top: 27px;
+    text-align: right;
+    display: inline-block;
+    color: #00A8CC;
+}
+
+.home_featured_works {
+    width: 1152px;
+    height: 868px;
+}
+.text_featured_works {
+    width: 152px;
+    height: 60px;
+    margin-top: 22px;
+    margin-left: 148px;
+    font-size: 22px;
+}
+.rectangle {
+    width: 858px;
+    height: 180px;
+    margin-top: 22px;
+    margin-left: 146px;
+}
+.img_rectangle {
+    width: 246px;
+    height: 180px;
+    display: inline-block;
+}
+.img_rectangle img {
+    width: 246px;
+    height: 180px;
+}
+.text_rectangle {
+    width: 594px;
+    height: 180px;
+    margin-left: 14px;
+    display: inline-block;
+    /* background-color: blue; */
+}
+.text_rectangle_Designing {
+    width: 365px;
+    height: 44px;
+    font-size: 25px;
+    /* background-color: brown; */
+}
+.text_rectangle_time_dashboard {
+    width: 460px;
+    height: 42px;
+    margin-top: 16px;
+    /* background-color: cadetblue; */
+}
+.text_rectangle_time {
+    width: 62px;
+    height: 42px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #000;
+    display: inline-block;
+
+}
+.text_rectangle_dashboard {
+    width: 374px;
+    height: 42px;
+    color: #8695A4;
+    margin-left: 20px;
+    line-height: 25px;
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+.text_rectangle_text {
+    width: 594px;
+    height: 93px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.home_social_network {
+    width: 1152px;
+    height: 182px;
+}
+.fb {
+    width: 30px;
+    height: 30px;
+    margin-top: 51px;
+    margin-left: 459px;
+    display: inline-block;
+}
+.insta {
+    width: 30px;
+    height: 30px;
+    margin-left: 35px;
+    display: inline-block;
+    /* background-color: burlywood; */
+}
+.insta_vector1 {
+    width: 27px;
+    height: 27px;
+    border: 3px solid black;
+    border-radius: 13px;
+}
+.insta_vector2 {
+    width: 2.9px;
+    height: 2.9px;
+    margin-left: 18.1px;
+    margin-top: 2.1px;
+    border-radius: 50%px;
+    background-color: black;
+    display: block;
+}
+.insta_vector3 {
+    width: 12.26px;
+    height: 12.26px;
+    margin-left: 4.27px;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: block;
+}
+.twitter {
+    width: 36.92px;
+    height: 30px;
+    margin-left: 35px;
+    display: inline-block;
+}
+.linkedin {
+    width: 30px;
+    height: 30px;
+    margin-left: 35.08px;
+    display: inline-block;
+}
+.home_social_network_text {
+    width: 222px;
+    height: 21px;
+    margin-top: 26px;
+    margin-left: 464px;
+    font-size: 14px;
+    text-align: center;
+}
+.demo {
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+}
